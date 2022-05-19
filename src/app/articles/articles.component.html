@@ -1,0 +1,5 @@
+<p>articles works!</p>
+
+<app-article *ngFor="let article of this.articles | async" [article]="article" (deletedArticle)="delete($event)">
+</app-article>
+ 

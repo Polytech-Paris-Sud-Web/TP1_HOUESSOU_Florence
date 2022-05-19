@@ -1,0 +1,9 @@
+<p>article works!</p>
+<div *ngIf="this.article?.title  && this.article?.author && this.article?.content" class="article">
+    <h3> {{this.article?.title}} </h3>
+    <p> Autheur : {{this.article?.author}} </p>
+    <p> Mycontent : {{this.article?.content}} </p>
+</div>
+<button class="btn btn-outline-danger" 
+type="button" (disabled)="article ?.id==0" (click)="delete()"> DELETE</button>
+<button type="button" (click)="create()"> CREATE</button>
