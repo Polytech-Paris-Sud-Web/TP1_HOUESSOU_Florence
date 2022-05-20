@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Next } from 'react-bootstrap/esm/PageItem';
 import { Observable } from 'rxjs';
 import { ArticleService } from '../article-service/article.service';
 import { Article } from '../article/article.model';
